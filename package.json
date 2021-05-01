@@ -1,0 +1,22 @@
+{
+	"name": "hrt",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"print-rose": "npx ts-node ./index.ts '20201218 12:00 p' 'YYYYMMDD h:mm a'",
+		"print-dolly-polly": "npx ts-node ./index.ts '20200101 11:20 a' 'YYYYMMDD h:mm a'",
+		"print": "npx ts-node ./index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"moment": "^2.29.1",
+		"ts-node": "^9.0.0",
+		"typescript": "^4.1.2"
+	},
+	"devDependencies": {
+		"@types/node": "^15.0.1"
+	}
+}
